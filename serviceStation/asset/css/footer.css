@@ -1,0 +1,45 @@
+.container {
+  border: 1px solid red;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+.logo {
+  border: 1px solid yellow;
+  background-color: yellow;
+  width: 100px;
+}
+.nav {
+  border: 1px solid blue;
+  background-color: blue;
+  width: 73px;
+  /* margin-left: 25px; */
+}
+.contact {
+  border: 1px solid green;
+  background-color: green;
+  /* text-align: right; */
+  /* display: inline-flex; */
+}
+.p {
+  width: 100px;
+}
+.wrapper {
+  border: 1px solid magenta;
+  width: 100%;
+  /* display: block; */
+  justify-content: space-between;
+  margin: 5px 0 5px 30px;
+  display: flex;
+  /* display: block; */
+}
+.wNav {
+  display: flex;
+  width: 187px;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+p {
+  font-size: 10px;
+  flex-wrap: wrap;
+}
